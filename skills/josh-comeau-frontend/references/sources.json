@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "feed_url": "https://www.joshwcomeau.com/rss.xml",
+  "retrieved_on": "2026-09-19",
+  "feed_sha256": "b9e678b9531f843b7c986bcfbee2b115fc893e8e27dd721677833a00fbdb7635",
+  "source_count": 88,
+  "scope": "Every item in this RSS snapshot, including the external Smashing Magazine article; not a claim to cover every page on the website.",
+  "review_method": "Full-page HTML retrieved for all 88 items. Section-level excerpts reviewed, supplemented with selected longer prose and code passages. Not a word-for-word reading of all articles or exhaustive execution of interactive demos.",
+  "rights": "Original synthesis and source metadata only; article bodies, screenshots, and proprietary assets are not bundled. No affiliation or endorsement is implied.",
+  "maintenance": "Feed audit compares membership, titles, and publication dates only, not article bodies, package releases, or documentation. Recheck current primary documentation separately for implementation-sensitive claims.",
+  "platform_review": {
+    "verified_on": "2026-09-19",
+    "reference": "references/current-platforms.md",
+    "scope": "Current implementation guidance checked against publisher latest release metadata and primary API documentation; historical article attribution and review status are preserved.",
+    "limitations": "Documentation and release-artifact review, not a complete runtime integration test of every library combination. CSS support must be checked per feature and target browser."
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Getting Started with Anchor Positioning",
+      "url": "https://www.joshwcomeau.com/css/anchor-positioning/",
+      "published": "Mon, 06 Jul 2026 13:15:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "3335665fb3fee5b0a1cb6711ccee40cb99e40c52d0bae08b7c51c1b78546bde5",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S002",
+      "title": "CSS vs. JavaScript",
+      "url": "https://www.joshwcomeau.com/animation/css-vs-javascript/",
+      "published": "Tue, 26 May 2026 13:30:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "1b3fed7ca3f1b86e1f3a000a0d4659d2da029c030fd38a3bc5780505ae120fbc",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S003",
+      "title": "Scroll-Driven Animations",
+      "url": "https://www.joshwcomeau.com/animation/scroll-driven-animations/",
+      "published": "Tue, 28 Apr 2026 12:00:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "1cdcd14b3a884922551eab9b3f506b53d565f70eaf11793c6753b32439100e3b",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S004",
+      "title": "Squash and Stretch",
+      "url": "https://www.joshwcomeau.com/animation/squash-and-stretch/",
+      "published": "Mon, 13 Apr 2026 12:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "3bc03a900f91575ce34517c207170fb60478e50ed2dead117a2893df14fd8141",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S005",
+      "title": "Sneaky Header Blocker Trick",
+      "url": "https://www.joshwcomeau.com/css/header-blockers/",
+      "published": "Mon, 23 Mar 2026 12:00:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "cc391bbc9c13e565ac30ead1f5ba176cc0eccf0d0735819cbba64471538ec769",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S006",
+      "title": "Sprites on the Web",
+      "url": "https://www.joshwcomeau.com/animation/sprites/",
+      "published": "Mon, 23 Feb 2026 11:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "e086ea1ccd34e1e56bad4583afa8e472713220dd23caa5388764b3bcc1bbb68b",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S007",
+      "title": "Brand New Layouts with CSS Subgrid",
+      "url": "https://www.joshwcomeau.com/css/subgrid/",
+      "published": "Tue, 25 Nov 2025 12:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "be9722100e84f4642c7a1e01e48494bf026f1883f790c34a92d3a33f44ef5ba7",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S008",
+      "title": "Springs and Bounces in Native CSS",
+      "url": "https://www.joshwcomeau.com/animation/linear-timing-function/",
+      "published": "Tue, 28 Oct 2025 12:00:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "a097aa2afbf708704d54f03e5107fcbd49a4a849e3fa464578b36067a35a9927",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S009",
+      "title": "The Big Gotcha With @starting-style",
+      "url": "https://www.joshwcomeau.com/css/starting-style/",
+      "published": "Mon, 22 Sep 2025 11:30:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "1f0b066d5cff5498c73261128878dd11b908d80204388cd3e53d7692c7a552b1",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S010",
+      "title": "Color Shifting in CSS",
+      "url": "https://www.joshwcomeau.com/animation/color-shifting/",
+      "published": "Mon, 08 Sep 2025 13:30:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "fdc5b94a45775bd3dcb36c9cc79486b401d760440dcdc0066da88c1d757c27c5",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S011",
+      "title": "An Interactive Guide to SVG Paths",
+      "url": "https://www.joshwcomeau.com/svg/interactive-guide-to-paths/",
+      "published": "Mon, 18 Aug 2025 13:30:00 GMT",
+      "topic": "svg",
+      "reference": "references/svg.md",
+      "retrieved_html_sha256": "09f24fe954aaf76d0a3295cffb07029e8b4d4be294203bc68a4197ad1faa514c",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S012",
+      "title": "A Friendly Introduction to SVG",
+      "url": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/",
+      "published": "Mon, 21 Jul 2025 13:30:00 GMT",
+      "topic": "svg",
+      "reference": "references/svg.md",
+      "retrieved_html_sha256": "ccd65f5b254e5709b8beb7e3cb5a786b516a0cac263d0ff9e31887589c3eb05c",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S013",
+      "title": "Partial Keyframes",
+      "url": "https://www.joshwcomeau.com/animation/partial-keyframes/",
+      "published": "Tue, 10 Jun 2025 11:00:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "ea249dac6ca5ffbab313f8f2a315532fa2e20918c4f1c5565a2609703b25e90c",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S014",
+      "title": "The Height Enigma",
+      "url": "https://www.joshwcomeau.com/css/height-enigma/",
+      "published": "Mon, 12 May 2025 11:30:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "96ac8f810dc7cc6fee593817b759ce158e5b7826f581d3f4e2217a2414f77570",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S015",
+      "title": "The Post-Developer Era",
+      "url": "https://www.joshwcomeau.com/blog/the-post-developer-era/",
+      "published": "Mon, 14 Apr 2025 13:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "7096c25cbffad9119a38a76a9f8740442964c12ac5a4ddfa49c0a154f332eac7",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S016",
+      "title": "A Million Little Secrets",
+      "url": "https://www.joshwcomeau.com/blog/whimsical-animations/",
+      "published": "Mon, 24 Feb 2025 11:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "f31adaac9c17dcc240ff031e20c471919c1874b343100ce278d244cfc3647a7f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S017",
+      "title": "Container Queries Unleashed",
+      "url": "https://www.joshwcomeau.com/css/container-queries-unleashed/",
+      "published": "Mon, 27 Jan 2025 13:15:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "e094c287b6fc4930a7b92bfba3c5d89767de711e84309cf3a140aa985b79dc64",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S018",
+      "title": "Next-level frosted glass with backdrop-filter",
+      "url": "https://www.joshwcomeau.com/css/backdrop-filter/",
+      "published": "Mon, 02 Dec 2024 13:15:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "893909e2c18bb26abaf1e97c61d2e428244faf2d2c356ec22762dcabdfb72253",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S019",
+      "title": "A Framework for Evaluating Browser Support",
+      "url": "https://www.joshwcomeau.com/css/browser-support/",
+      "published": "Tue, 26 Nov 2024 13:15:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "c29269dfb42a43649474b751a7e9b03a4ba1c2d29e970c51fdc6f6b8c03c7c77",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S020",
+      "title": "A Friendly Introduction to Container Queries",
+      "url": "https://www.joshwcomeau.com/css/container-queries-introduction/",
+      "published": "Mon, 04 Nov 2024 13:15:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "32588f10fa3cdfc1ff5c78689e0b919132ad3205429081cb7a705758e835d04e",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S021",
+      "title": "How I Built My Blog",
+      "url": "https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/",
+      "published": "Tue, 24 Sep 2024 12:15:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "c2d3cec25e7c6b0abdd04654308333b1a4e1e1e3001c2aa0223cd6f3b088ad02",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S022",
+      "title": "The Undeniable Utility Of CSS :has",
+      "url": "https://www.joshwcomeau.com/css/has/",
+      "published": "Mon, 09 Sep 2024 13:15:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "bf0abbe0d7e6f3cf5d215f18fc0ccab843526af42033b4b167cdb002b5e487b1",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S023",
+      "title": "Promises From The Ground Up",
+      "url": "https://www.joshwcomeau.com/javascript/promises/",
+      "published": "Mon, 03 Jun 2024 13:30:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "dcc02bf1d12d8a66f1803176ac122c0114bbf74aee64c86a1d1918a5c13186bd",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S024",
+      "title": "Snappy UI Optimization with useDeferredValue",
+      "url": "https://www.joshwcomeau.com/react/use-deferred-value/",
+      "published": "Mon, 13 May 2024 11:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "3c9d6904e798627f5bdc729bf12d623cf1e28a259d8d24d3fb58e002870469f9",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S025",
+      "title": "CSS in React Server Components",
+      "url": "https://www.joshwcomeau.com/react/css-in-rsc/",
+      "published": "Mon, 15 Apr 2024 11:00:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "803bc12be22d7bdf5c90ea1b2f5036cd7a5aabb2794a211f7acd345ada8ad8d8",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S026",
+      "title": "How To Center a Div",
+      "url": "https://www.joshwcomeau.com/css/center-a-div/",
+      "published": "Tue, 13 Feb 2024 13:15:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "b91e67e0d17df143c159b37a7fad77cad45eaa661dcb87f576bbeb897cc7b346",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S027",
+      "title": "An Interactive Guide to CSS Grid",
+      "url": "https://www.joshwcomeau.com/css/interactive-guide-to-grid/",
+      "published": "Tue, 21 Nov 2023 11:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "2257656f25926f1b56c2eae5652d7d0942902b15125f86a447d59cf549a4c1ff",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S028",
+      "title": "Understanding the JavaScript Modulo Operator",
+      "url": "https://www.joshwcomeau.com/javascript/modulo-operator/",
+      "published": "Mon, 18 Sep 2023 12:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "8c19f5c9304ecb4b79ac16b6334632853d435268eab1ad52990dea7058c64787",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S029",
+      "title": "Making Sense of React Server Components",
+      "url": "https://www.joshwcomeau.com/react/server-components/",
+      "published": "Wed, 06 Sep 2023 13:00:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "bc015c253957d885c610abed8d0544aaf03243c55677f9e2e1edc6148fa94337",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S030",
+      "title": "Animated Pride Flags",
+      "url": "https://www.joshwcomeau.com/animation/pride-flags/",
+      "published": "Tue, 06 Jun 2023 11:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "32f4f34d2c3894c648c68e2dcf5f1310efb548cb1e783716b345624be575cd97",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S031",
+      "title": "The “const” Deception",
+      "url": "https://www.joshwcomeau.com/javascript/the-const-deception/",
+      "published": "Mon, 24 Apr 2023 13:30:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "bd6597c1eed9cc0128c7d56898b8577c7912f8366889a1498a72e3fb40abdb33",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S032",
+      "title": "The End of Front-End Development",
+      "url": "https://www.joshwcomeau.com/blog/the-end-of-frontend-development/",
+      "published": "Mon, 20 Mar 2023 13:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "cc9cc8ad3c9a3e8fdb1f7bfef0f0cb8350a13297bda94fd2e339b641fc10cf93",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S033",
+      "title": "Common Beginner Mistakes with React",
+      "url": "https://www.joshwcomeau.com/react/common-beginner-mistakes/",
+      "published": "Mon, 06 Mar 2023 11:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "b1eb52ba37b8da16c5d32dfcb0678e7c2bd6e435a42f98317da9173765d101ae",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S034",
+      "title": "Data Binding in React",
+      "url": "https://www.joshwcomeau.com/react/data-binding/",
+      "published": "Mon, 09 Jan 2023 11:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "b9575e7972d058ff1871b14341db9480ea4c7493a8ba8609c5f36217b036899f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S035",
+      "title": "Color Formats in CSS",
+      "url": "https://www.joshwcomeau.com/css/color-formats/",
+      "published": "Mon, 28 Nov 2022 13:15:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "f203f7a3c36de6122f28346b87b6168b0d98b469c6a6f2ae8051fdcb57a2af48",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S036",
+      "title": "An Interactive Guide to Flexbox",
+      "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/",
+      "published": "Tue, 22 Nov 2022 11:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "aecf5b125e0204ab5cd9a830b0bb5b4eaf8260df356fa3665ad091c5d214cef4",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S037",
+      "title": "A World-Class Code Playground with Sandpack",
+      "url": "https://www.joshwcomeau.com/react/next-level-playground/",
+      "published": "Tue, 11 Oct 2022 14:00:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "5faab7c7cad8b0862cee06f13ced697f45f92ed9fe6107352cecf01ed3639e11",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S038",
+      "title": "Understanding useMemo and useCallback",
+      "url": "https://www.joshwcomeau.com/react/usememo-and-usecallback/",
+      "published": "Tue, 30 Aug 2022 13:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "0a4a9c06c2d64dab9dd77b39908a5ff8e146fcdd56ae77582cce89373601ddb9",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S039",
+      "title": "Why React Re-Renders",
+      "url": "https://www.joshwcomeau.com/react/why-react-re-renders/",
+      "published": "Tue, 16 Aug 2022 13:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "a8893bc8701d7c193557c78e786165ae8bd1c06c92e69763c198b0635a781c4f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S040",
+      "title": "Statements Vs. Expressions",
+      "url": "https://www.joshwcomeau.com/javascript/statements-vs-expressions/",
+      "published": "Mon, 11 Jul 2022 10:30:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "5fde58f52d881ba4f7f92224042864fa414a8b4ee6e66eb8268d9d6947b2d050",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S041",
+      "title": "My Wonderful HTML Email Workflow",
+      "url": "https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/",
+      "published": "Mon, 27 Jun 2022 12:00:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "bab98050de21c8637f900a9f3fc8985f581c2624747ea68f1e5e84807a2d7904",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S042",
+      "title": "The Surprising Truth About Pixels and Accessibility",
+      "url": "https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/",
+      "published": "Tue, 17 May 2022 12:00:00 GMT",
+      "topic": "accessibility",
+      "reference": "references/accessibility.md",
+      "retrieved_html_sha256": "a56b4a041c78f59b1028f7845f81b86123baf12e0e02617306598cf3651d5a84",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S043",
+      "title": "You Don’t Need a UI Framework",
+      "url": "https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/",
+      "published": "Tue, 03 May 2022 11:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "a0c06935f6181668309b552869fe54f55f88e2846a0972c6f4bd1605be93032e",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S044",
+      "title": "The Front-End Developer's Guide to the Terminal",
+      "url": "https://www.joshwcomeau.com/javascript/terminal-for-js-devs/",
+      "published": "Tue, 19 Apr 2022 10:30:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "30a2103c035b925420cddd3b6498a82632ea78e0be55cf35115c8204153b587f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S045",
+      "title": "Understanding Layout Algorithms",
+      "url": "https://www.joshwcomeau.com/css/understanding-layout-algorithms/",
+      "published": "Mon, 28 Mar 2022 11:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "166e3e67358fc94a69814734ad7c1c2a01005c6c5de1d45c2b71e21f9ffe25d9",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S046",
+      "title": "Delightful React File/Directory Structure",
+      "url": "https://www.joshwcomeau.com/react/file-structure/",
+      "published": "Tue, 15 Mar 2022 13:00:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "efd0f0c588dfef58044e05102e113858d45c1fa00c666f380a6c8348976b7b90",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S047",
+      "title": "Make Beautiful Gradients",
+      "url": "https://www.joshwcomeau.com/css/make-beautiful-gradients/",
+      "published": "Tue, 11 Jan 2022 14:00:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "a522419a0caf68150bf93999edac78689379ff9a7036de93adcbe8f25004ea35",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S048",
+      "title": "A Modern CSS Reset",
+      "url": "https://www.joshwcomeau.com/css/custom-css-reset/",
+      "published": "Tue, 23 Nov 2021 12:00:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "cfd2b2ecc7857b6bdccdd21ea9fef1d3a70b2027736a23c2a98a1b327e0cca88",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S049",
+      "title": "Introducing “Shadow Palette Generator”",
+      "url": "https://www.joshwcomeau.com/css/introducing-shadow-palette-generator/",
+      "published": "Tue, 16 Nov 2021 14:00:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "97ef23f5de29ec62fdd39d4258df08a22366ba7ee987d2914508f533dd7512f7",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S050",
+      "title": "Designing Beautiful Shadows in CSS",
+      "url": "https://www.joshwcomeau.com/css/designing-shadows/",
+      "published": "Mon, 13 Sep 2021 12:00:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "79c112e95425c20c20433ab72b3054a2829c5910efcad9f53509e63378f13ffa",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S051",
+      "title": "An Interactive Guide to Keyframe Animations",
+      "url": "https://www.joshwcomeau.com/animation/keyframe-animations/",
+      "published": "Tue, 31 Aug 2021 13:30:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "006efcb71a548531cdd09a79ffb64ec08b09d0242231044b461477f68ccef158",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S052",
+      "title": "The World of CSS Transforms",
+      "url": "https://www.joshwcomeau.com/css/transforms/",
+      "published": "Mon, 09 Aug 2021 13:00:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "a4265a426e53514d1c2a0872f23ce4da5a8d62155a751895c1e079ac4964323a",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S053",
+      "title": "How To Learn Stuff Quickly",
+      "url": "https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/",
+      "published": "Mon, 19 Jul 2021 14:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "e6cd89308bd1f1486da45e755ac206a3bf8c81ec36d6462f7fb1d52768f55226",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S054",
+      "title": "Demystifying styled-components",
+      "url": "https://www.joshwcomeau.com/react/demystifying-styled-components/",
+      "published": "Mon, 21 Jun 2021 13:00:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "0e7c647695d4c55f9ab7ab2ff456ef39671450f9dfd7f7616ca8e5d0d9b7e4cd",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S055",
+      "title": "How I Built My Blog",
+      "url": "https://www.joshwcomeau.com/blog/how-i-built-my-blog/",
+      "published": "Tue, 20 Apr 2021 12:15:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "1c59b595b36a26e9a8923515b0a767443886784cea0e86f90d51f97b642ae6d2",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S056",
+      "title": "Building a Magical 3D Button",
+      "url": "https://www.joshwcomeau.com/animation/3d-button/",
+      "published": "Tue, 30 Mar 2021 13:30:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "ae40e3ceccc2e0f8b29964fbf662499e2fef6ec31d27853a3fddd52964ac6a10",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S057",
+      "title": "The Importance of Learning CSS",
+      "url": "https://www.joshwcomeau.com/css/the-importance-of-learning-css/",
+      "published": "Wed, 03 Mar 2021 13:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "5f0301a9e6f016042112e3520cdc8216c9184d8039bca4f9fdcfb4684988c161",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S058",
+      "title": "What The Heck, z-index??",
+      "url": "https://www.joshwcomeau.com/css/stacking-contexts/",
+      "published": "Mon, 22 Feb 2021 14:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "d11167d2233cb078834376c57b7059f19ee1171fc3b5cf3f1cf6b33c52b6c1a5",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S059",
+      "title": "An Interactive Guide to CSS Transitions",
+      "url": "https://www.joshwcomeau.com/animation/css-transitions/",
+      "published": "Tue, 09 Feb 2021 12:00:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "966892728864ead7fc426070c911545ff1fa5c2474a23a4f67158e3ab1dcbe63",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S060",
+      "title": "The styled-components Happy Path",
+      "url": "https://www.joshwcomeau.com/css/styled-components/",
+      "published": "Mon, 25 Jan 2021 11:30:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "4ba78b8467f220ec3bad4863a5e9d170ec6f48d07d3e15ef943bc5a0dd1baef3",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S061",
+      "title": "Let's Bring Spacer GIFs Back!",
+      "url": "https://www.joshwcomeau.com/react/modern-spacer-gif/",
+      "published": "Mon, 11 Jan 2021 10:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "ee8b6ae2397d89a1e637fbdf87c4af9368ff12d50b3160ea88d7275cd6d1b0b5",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S062",
+      "title": "Refreshing Server-Side Props",
+      "url": "https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/",
+      "published": "Mon, 14 Dec 2020 12:00:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "2d982f4a09a1bfc083d8eabbe839e39312382fc3ad12e47116883159926631be",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S063",
+      "title": "The Rules of Margin Collapse",
+      "url": "https://www.joshwcomeau.com/css/rules-of-margin-collapse/",
+      "published": "Mon, 07 Dec 2020 13:30:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "53019dc371ed99434a76ad7727b6da05594b16e08fe50ed16af0cfe3a5e8b49e",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S064",
+      "title": "Boop!",
+      "url": "https://www.joshwcomeau.com/react/boop/",
+      "published": "Mon, 23 Nov 2020 12:30:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "6f8e0a0989fda03b5180b843c58ee6a52ab2a5af6bd72d84ae0bd277f99a6459",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S065",
+      "title": "Chasing the Pixel-Perfect Dream",
+      "url": "https://www.joshwcomeau.com/css/pixel-perfection/",
+      "published": "Mon, 02 Nov 2020 15:00:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "f09a2c421882b3bb05a0077d3d8005ab5d533d27a5f153be03cc431605489c9c",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S066",
+      "title": "Hands-Free Coding",
+      "url": "https://www.joshwcomeau.com/blog/hands-free-coding/",
+      "published": "Wed, 21 Oct 2020 11:00:00 GMT",
+      "topic": "accessibility",
+      "reference": "references/accessibility.md",
+      "retrieved_html_sha256": "56cfd27111953e4ae3e5f3b9968226bfddac8be8970402fa33613b3e3dc175c5",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S067",
+      "title": "Full-Bleed Layout Using CSS Grid",
+      "url": "https://www.joshwcomeau.com/css/full-bleed/",
+      "published": "Mon, 05 Oct 2020 11:00:00 GMT",
+      "topic": "layout",
+      "reference": "references/layout.md",
+      "retrieved_html_sha256": "971d2c902a9cdd55444c092c23a352645add7ca77057e326ed560ba0a1587aa1",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S068",
+      "title": "A Friendly Introduction to Spring Physics",
+      "url": "https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/",
+      "published": "Mon, 21 Sep 2020 14:15:00 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "feffb4b14cf298e8d24bbd66c413517ed6fd9152794daa0a679b1be40d544705",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S069",
+      "title": "Local Testing on an iPhone",
+      "url": "https://www.joshwcomeau.com/blog/local-testing-on-an-iphone/",
+      "published": "Tue, 26 May 2020 13:15:00 GMT",
+      "topic": "tooling",
+      "reference": "references/tooling.md",
+      "retrieved_html_sha256": "1fe2e2c1573f43a3e1486c2774946db6ca39da313b2dd83d00114c6b2a0d89e8",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S070",
+      "title": "Animated Sparkles in React",
+      "url": "https://www.joshwcomeau.com/react/animated-sparkles-in-react/",
+      "published": "Tue, 19 May 2020 11:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "9d514af83138847e253185949cfbf70e68cefc38768779c60d020996d497d128",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S071",
+      "title": "Lessons Learned Speaking at Conferences",
+      "url": "https://www.joshwcomeau.com/career/lessons-learned-speaking-at-conferences/",
+      "published": "Wed, 06 May 2020 16:00:00 GMT",
+      "topic": "career",
+      "reference": "references/career.md",
+      "retrieved_html_sha256": "cca2974cff8081001cff10d1422b5db735514f3e052f44c967fcd7212a84b269",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S072",
+      "title": "Accessible Animations in React",
+      "url": "https://www.joshwcomeau.com/react/prefers-reduced-motion/",
+      "published": "Mon, 04 May 2020 02:30:00 GMT",
+      "topic": "accessibility",
+      "reference": "references/accessibility.md",
+      "retrieved_html_sha256": "5460441bbb65aba1bc681093e62c054ee17cd2e290885716a37fb722bbf3116b",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S073",
+      "title": "Why My Blog is Closed-Source",
+      "url": "https://www.joshwcomeau.com/blog/why-my-blog-is-closed-source/",
+      "published": "Thu, 30 Apr 2020 13:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "b296b58bea8d699026b8f0b07a7369a4e50c9c803d5725da8557ea6c8af822ec",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S074",
+      "title": "The Quest for the Perfect Dark Mode",
+      "url": "https://www.joshwcomeau.com/react/dark-mode/",
+      "published": "Wed, 22 Apr 2020 00:45:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "27e89b32a97e8c6aab1fdbb65b752a472799c00d47bffde021612c4bacb461f0",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S075",
+      "title": "CSS Variables for React Devs",
+      "url": "https://www.joshwcomeau.com/css/css-variables-for-react-devs/",
+      "published": "Mon, 13 Apr 2020 13:15:00 GMT",
+      "topic": "visual-design",
+      "reference": "references/visual-design.md",
+      "retrieved_html_sha256": "e3597f727804054598a008db27b4209dc99d914748a8667a50fd27ef356fcddd",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S076",
+      "title": "Styling Ordered Lists with CSS Counters",
+      "url": "https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/",
+      "published": "Tue, 07 Apr 2020 14:00:00 GMT",
+      "topic": "modern-css",
+      "reference": "references/modern-css.md",
+      "retrieved_html_sha256": "e126d88831c25885e174268669f54c254988edecba700fcd7333d5e924016002",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S077",
+      "title": "Announcing “use-sound”, a React Hook for Sound Effects",
+      "url": "https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/",
+      "published": "Mon, 30 Mar 2020 13:10:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "381934116b5e0d3c38f773290930f3a370d5e6e7b867b4ebbfe0bd3e96084668",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S078",
+      "title": "Becoming a Software Developer Without a CS Degree",
+      "url": "https://www.joshwcomeau.com/career/no-cs-degree-required/",
+      "published": "Mon, 16 Mar 2020 14:20:00 GMT",
+      "topic": "career",
+      "reference": "references/career.md",
+      "retrieved_html_sha256": "0b4755aabbb5403d949e0ce2b50680029844eaf0ca9e7d670aada49e25eead23",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S079",
+      "title": "The Perils of Hydration",
+      "url": "https://www.joshwcomeau.com/react/the-perils-of-rehydration/",
+      "published": "Mon, 02 Mar 2020 14:00:00 GMT",
+      "topic": "rendering",
+      "reference": "references/rendering.md",
+      "retrieved_html_sha256": "9838e1d3578fb69eb98736677ff92314c0c69e060cf4d77fb3f338008dcb7ed6",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S080",
+      "title": "Persisting React State in localStorage",
+      "url": "https://www.joshwcomeau.com/react/persisting-react-state-in-localstorage/",
+      "published": "Mon, 24 Feb 2020 17:00:00 GMT",
+      "topic": "react",
+      "reference": "references/react.md",
+      "retrieved_html_sha256": "b89e31ea0212d76072c56cc010ac0a5de749c4d8985b38ee9b6af1fae26429fe",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S081",
+      "title": "Effective Collaboration with Product and Design",
+      "url": "https://www.joshwcomeau.com/career/effective-collaboration/",
+      "published": "Tue, 21 Jan 2020 14:00:00 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "4c8c09ce02813c92c279ce21534140ef1f69708e201e78aa28c1aef2f582aa7d",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S082",
+      "title": "Magical Rainbow Gradients",
+      "url": "https://www.joshwcomeau.com/react/rainbow-button/",
+      "published": "Mon, 13 Jan 2020 13:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "640efad2bac0e737f5454999765ecc61b55f0ec26f744cd7278c5ff9329dcc71",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S083",
+      "title": "Finding your first remote job",
+      "url": "https://www.joshwcomeau.com/career/remote-work-pt2/",
+      "published": "Thu, 19 Dec 2019 10:30:00 GMT",
+      "topic": "career",
+      "reference": "references/career.md",
+      "retrieved_html_sha256": "63231c7283afb3495e0eb4f5894c2ef3772d1d7d239af4d67367c321b9839307",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S084",
+      "title": "My experience as a remote worker",
+      "url": "https://www.joshwcomeau.com/career/remote-work/",
+      "published": "Mon, 02 Dec 2019 13:30:00 GMT",
+      "topic": "career",
+      "reference": "references/career.md",
+      "retrieved_html_sha256": "c3f3ecf8e6e54a162b5cf6ff661263351c2321cf18c733afe5f575a9a83e19dc",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S085",
+      "title": "Clever Code Considered Harmful",
+      "url": "https://www.joshwcomeau.com/career/clever-code-considered-harmful/",
+      "published": "Wed, 13 Nov 2019 18:03:43 GMT",
+      "topic": "engineering-practice",
+      "reference": "references/engineering-practice.md",
+      "retrieved_html_sha256": "32260f69826825a0b6109f394d653cde4441e0542f1646b0f2ed59c2fe01553f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S086",
+      "title": "Folding the DOM",
+      "url": "https://www.joshwcomeau.com/react/folding-the-dom/",
+      "published": "Sun, 19 May 2019 19:00:00 GMT",
+      "topic": "motion-recipes",
+      "reference": "references/motion-recipes.md",
+      "retrieved_html_sha256": "eeb7c07c5453fcd5b07873bac9f1d302e9ed68ada5b721645c9accee4d7d927f",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S087",
+      "title": "Dynamic Bézier Curves",
+      "url": "https://www.joshwcomeau.com/animation/dynamic-bezier-curves/",
+      "published": "Wed, 23 May 2018 13:30:00 GMT",
+      "topic": "svg",
+      "reference": "references/svg.md",
+      "retrieved_html_sha256": "4846f1af3d62d551dd9d1d05977806a4eceb2fdd13a7c1ec15fe6dcda180b38d",
+      "review_status": "section-reviewed"
+    },
+    {
+      "id": "S088",
+      "title": "Animating the Unanimatable",
+      "url": "https://www.joshwcomeau.com/react/animating-the-unanimatable/",
+      "published": "Mon, 15 Feb 2016 18:03:43 GMT",
+      "topic": "motion-foundations",
+      "reference": "references/motion-foundations.md",
+      "retrieved_html_sha256": "4bdc884eb3813bb8cd1aceae3ff4c155b9284228fff8d77cece6818589974c1b",
+      "review_status": "section-reviewed"
+    }
+  ]
+}
